@@ -1,0 +1,67 @@
+# System & Tunnels
+cloudflared.exe
+.claude/
+*.err
+tunnels.txt
+*.log
+
+# Analysis Artifacts (Antigravity generated)
+PRD_vs_Implementation_Comparison.md
+action-items.md
+architecture-diagram.md
+executive-summary.md
+implementation-plan.md
+integration-details.md
+crud-matrix.md
+quality-assessment.md
+security-audit.md
+tech-debt-tracker.md
+test-recommendations.md
+validation-summary.md
+prd_content.txt
+refactoring-candidates.json
+backend-inventory.json
+repro_debug.py
+verify_report_creation.py
+
+# Utility Scripts
+create_superuser.py
+read_docx.py
+scan-frontend.py
+schema-validator.py
+start_tunnels.py
+validate_integration.py
+temp_folder/
+
+# Frontend
+node_modules/
+dist/
+.quasar/
+.env
+.env.local
+.env.*.local
+.DS_Store
+coverage/
+
+# Backend (Django)
+*.py[cod]
+*$py.class
+__pycache__/
+.venv/
+db.sqlite3
+db.sqlite3-journal
+/media/
+/static/
+/staticfiles/
+.python-version
+pip-log.txt
+pip-delete-this-directory.txt
+htmlcov/
+.tox/
+.coverage
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+.pytest_cache/
