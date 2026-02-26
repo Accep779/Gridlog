@@ -1,67 +1,31 @@
 # System & Tunnels
-cloudflared.exe
-.claude/
 *.err
-tunnels.txt
 *.log
 
 # Analysis Artifacts (Antigravity generated)
-PRD_vs_Implementation_Comparison.md
-action-items.md
-architecture-diagram.md
-executive-summary.md
-implementation-plan.md
-integration-details.md
-crud-matrix.md
-quality-assessment.md
-security-audit.md
-tech-debt-tracker.md
-test-recommendations.md
-validation-summary.md
-prd_content.txt
-refactoring-candidates.json
-backend-inventory.json
-repro_debug.py
-verify_report_creation.py
+# *.docx (Removed broad ignore)
+# *.py (Removed broad ignore)
 
-# Utility Scripts
-create_superuser.py
-read_docx.py
-scan-frontend.py
-schema-validator.py
-start_tunnels.py
-validate_integration.py
-temp_folder/
+# Global ignores
+.DS_Store
+.claude/
+.env
 
 # Frontend
-node_modules/
-dist/
-.quasar/
-.env
-.env.local
-.env.*.local
-.DS_Store
-coverage/
+frontend/node_modules/
+frontend/dist/
+frontend/.quasar/
+frontend/.env
+frontend/.env.*
 
 # Backend (Django)
-*.py[cod]
-*$py.class
-__pycache__/
-.venv/
-db.sqlite3
-db.sqlite3-journal
-/media/
-/static/
-/staticfiles/
-.python-version
-pip-log.txt
-pip-delete-this-directory.txt
-htmlcov/
-.tox/
-.coverage
-.cache
-nosetests.xml
-coverage.xml
-*.cover
-.hypothesis/
-.pytest_cache/
+backend/__pycache__/
+backend/*.py[cod]
+backend/.venv/
+backend/db.sqlite3
+backend/db.sqlite3-journal
+backend/.env
+backend/.env.*
+backend/static/
+backend/media/
+backend/staticfiles/
